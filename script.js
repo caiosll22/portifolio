@@ -54,3 +54,4 @@ document.querySelectorAll('.about-img, .portfolio-item, .contact-form').forEach(
 window.addEventListener('scroll', animateOnScroll);
 animateOnScroll(); // Run once on load
 animateOnScroll(); // Run once on load
+
