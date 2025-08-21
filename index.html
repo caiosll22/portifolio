@@ -1,270 +1,245 @@
 <!DOCTYPE html>
-<html lang="pt-BR">
+<html lang="pt-br">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Meu Portfólio Profissional</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link
-        href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;600;700&family=Playfair+Display:wght@400;600;700&display=swap"
-        rel="stylesheet">
     <link rel="stylesheet" href="./stylepor.css">
+    <!--bootstrapicons-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>portifolio</title>
 </head>
 
 <body>
-    <!-- Header -->
     <header>
-        <div class="container">
-            <nav>
-                <div class="logo">MeuPortfolio</div>
-                <ul class="nav-links">
-                    <li><a href="#home">Início</a></li>
-                    <li><a href="#about">Sobre</a></li>
-                    <li><a href="#portfolio">Portfólio</a></li>
-                    <li><a href="#contact">Contato</a></li>
+        <div class="interface">
+            <div class="logo">
+                <a href="" title="Logo">
+                    <img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAADIAAAAyCAYAAAAeP4ixAAAACXBIWXMAAAsTAAALEwEAmpwYAAAD0UlEQVR4nO2ZWYgUZxDHf+ux6B7EFUXM6oNmV4NZb9fjQQVBEQ2oiMYjEvXNGEUEBZElAREJiAnrFcH7QYISluAiiqCCmoCKigcaDxSTKEYN8UDR6K5U+A90mp7p7unumVnYHzQzdFfVVzXzHVXV0Mp/tAOGA8uBPcBp4A/gb+At8E7fHwBngAPAN8Ak4AMKgJHAD8AToDnL6zVwGJgHFOc6gNHAcZdDV4CtwAJgDNADqADaAkX63h0YAcwE1gHHFEjKhv1jS4H2SQdg02A70KSBHwFrgL4RbHYCvgDOun6UgSTEx8B1DfQSWA2UxjzGROCaxnil6RYrgxzr4DxQRXJ0ADZrLPvnF8dluFpTyAw3ACXkhqUKxHa86VGNlQGXFURjHnaVFRr7OfBRFEP1MnQVKCc/7JMPJ7I1MFSH2RtgAPmjAvhLwWQ1xRqlvJ78s0K+XAyr2N8xN7uQf0qBh/JpbBjFDVLaROHwtXzaGFTB0ok/pTQsRkcspfk1gn5/+fS7fPRloEMhLnrLpk2PKNySndogwl9JeCfxMUs2D0a0Uy87S4II75DwlyEGmAM8BSanef6dbNa57n8qPdMPwkLZscTVl5MSHhfQeD/ghXSmpJH5Rc8nuO5P0f0XsuNHreStOPPlroQHBNwWr0h+VxqZYmWyTTrc3OxypO5+2XSJci+rYXr5OfdchisDBOJ0osTnV7T03IuOOuiCrss9kv3JT/BfCdoAmZgdcFosltzuDDJ9gGeSm+8zbjetK6+p+j9exhzI3gCbR5hAjFWOZNYaH57ck1BP4plav0nGktA4plZq3d2QTtrC64IEBhN9sVdokb/KUMuEWexeO95joDMeNEhgLtG33wm6b9uvF1NDbr9ujmbKCVMp8xbCH4jWcHNSJ1t2IHoR9kB084k2J7tq3A9HOf7qqByULUtRkqJeY/zoflDs6JhE7S2laghLGpOiWmPcyZQbWVsmCtYDPkVy1Kjdar4e8RLop4c2f7tSeNQA+5WupDqe1nvLWLNvo7DY7wjADu/v1VPOeNq+ltIQCodmXRbAh0GVvpXSqaDlZQ4DCUW5o37/nBYcCOqIN+sNVOLvLZIMpAi4JGV7QdNiAzEWSdneMOWTNvLDNqCsKFfl2BRmp0iA7grkfhQjjTnIm/yYJh+s2Zc1K2XEXnjmi0PyYVnUN7mZaoukmeUopLy6MYGpkqGb5J7ZqjKD1vS+r6bN0D/EzwxgvJrm9oNVKkX6zFEF2rW2IPbwAHbTXU/iziySDuScOu639fmzmuplSQ3YUuympTWQQguEQuc98KpS+bUmt9UAAAAASUVORK5CYII="
+                        alt="developer--v1" style="filter: brightness(0) invert(1);" />
+                </a>
+            </div>
+
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#">Incio</a></li>
+                    <li><a href="#">Especialidades</a></li>
+                    <li><a href="#">Sobre</a></li>
+                    <li><a href="#projetos">Projetos</a></li>
                 </ul>
-                <div class="menu-btn">☰</div>
             </nav>
+
+            <div class="btn-contato">
+                <a href="#">
+                    <button>Contato</button>
+                </a>
+            </div>
         </div>
     </header>
+    <!-- tag main guarda o principal conteudo do site -->
+    <main>
+        <section class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
 
-    <!-- Hero Section -->
-    <section class="hero" id="home">
-        <div class="container">
-            <div class="hero-content">
-                <h1>Desenvolvedor Front-end</h1>
-                <p>Sou um profissional criativo dedicado a desenvolver Landing pages com um design sofisticado</p>
-                <div class="hero-btns">
-                    <a href="#portfolio" class="btn">Ver Projetos</a>
-                    <a href="#contact" class="btn btn-outline">Contato</a>
+                    <div class="txt-topo-site">
+                        <h1>TRANSFORMANDO IDEIAS EM REALIDADES VIRTUAIS<span>.</span></h1>
+                        <p>Como desenvolvedor, meu objetivo é dar vida às suas ideias por meio de soluções digitais
+                            modernas. Desenvolvo interfaces responsivas e elegantes, que tornam seu negócio mais
+                            atrativo e oferecem uma experiência interativa de qualidade aos seus clientes.</p>
+
+                        <div class="btn-contato">
+                            <a href="#">
+                                <button>Entre em contato</button>
+                            </a>
+                        </div>
+
+                    </div>
+
+                    <div class="img-topo-site">
+                        <img src="./assets/caio.png" alt="foto-caio">
+                    </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- About Section -->
-    <section class="section" id="about">
-        <div class="container">
-            <h2 class="section-title">Sobre Mim</h2>
-            <div class="about-content">
-                <div class="about-img">
-                    <img src="./assets/Captura de tela de 2025-06-30 21-25-03.png" alt="Foto-caio">
+        <section class="especialidades">
+            <div class="interface">
+                <h2 class="titulo">MINHAS <span>ESPECIALIDADES</span></h2>
+                <div class="flex">
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>website</h3>
+                        <p>Um website é um conjunto de páginas na internet que reúne informações, serviços ou produtos.
+                            Pode ser institucional, pessoal ou comercial, sempre de acordo com sua finalidade.
+                            Sua estrutura combina design, conteúdo e usabilidade para facilitar a navegação.
+                            Quando bem desenvolvido, fortalece a presença digital e transmite credibilidade.p>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-laptop"></i>
+                        <h3>Landing page</h3>
+                        <p>Uma landing page é uma página criada para converter visitantes em leads ou clientes.
+                            Diferente de um site tradicional, ela tem foco em uma única ação, como preencher um
+                            formulário ou realizar uma compra. Sua estrutura é simples, objetiva e direcionada, usando
+                            títulos de impacto, descrições curtas e chamadas para ação estratégicas.</p>
+                    </div>
+
+                    <div class="especialidades-box">
+                        <i class="bi bi-code-square"></i>
+                        <h3>Portfólio</h3>
+                        <p>Um portfólio é um website criado para apresentar trabalhos, habilidades e conquistas
+                            profissionais.
+                            Ele funciona como uma vitrine digital, mostrando projetos de forma clara e organizada.
+                            Seu design deve valorizar a identidade visual e transmitir confiança ao visitante.
+                            Bem estruturado, aumenta credibilidade e gera novas oportunidades no mercado.</p>
+                    </div>
+
                 </div>
-                <div class="about-text">
-                    <h3>Desenvolvedor Front-end, mas em um futuro breve serei um Desenvolvedor Full-stack.</h3>
-                    <p>Entrei no universo do desenvolvimento há quase um ano e, de cara, me apaixonei por transformar
-                        minhas ideias em código. Espero, em breve, poder transformar também as suas ideias em uma linda
-                        página web.</p>
-                    <br>
-                    <p>"As empresas que não se adaptarem à transformação digital ficarão para trás."</p>
-                    <p>— John Chambers, ex-CEO da Cisco</p>
+            </div>
+        </section>
 
-                    <div class="skills">
-                        <div class="skill-item">
-                            <div class="skill-name">
-                                <span>HTML</span>
-                                <span>80%</span>
-                                <img width="48" height="48" src="https://img.icons8.com/color/48/html-5--v1.png"
-                                    alt="html-5--v1" />
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-percent skill-95"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">
-                                <span>CSS </span>
-                                <span>60%</span>
-                                <img width="48" height="48" src="https://img.icons8.com/color/48/css3.png" alt="css3" />
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-percent skill-90"></div>
-                            </div>
-                        </div>
-                        <div class="skill-item">
-                            <div class="skill-name">
-                                <span>JavaScript</span>
-                                <span>20%</span>
-                                <img width="40" height="40"
-                                    src="https://img.icons8.com/external-tal-revivo-shadow-tal-revivo/24/external-javascript-is-a-high-level-interpreted-programming-language-logo-shadow-tal-revivo.png"
-                                    alt="external-javascript-is-a-high-level-interpreted-programming-language-logo-shadow-tal-revivo" />
-                            </div>
-                            <div class="skill-bar">
-                                <div class="skill-percent skill-85"></div>
-                            </div>
+        <section class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobrre">
+                        <img src="./assets/caio.png" alt="">
+                    </div>
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU CAIO SALES</span></h2>
+                        <p>Olá, meu nome é Caio Sales e tenho 22 anos. Sou estudante de programação com foco em
+                            Front-End, com objetivo de evoluir para Full Stack. Sou fascinado por tecnologia e acredito
+                            que a inovação e o aprendizado contínuo são a chave para se destacar no mercado. Gosto de
+                            transformar ideias em soluções digitais eficientes e funcionais.</p>
+                        <div class="btn-social">
+                            <a href="#"><button title="Instagram"><i class="bi bi-instagram"></i></button></a>
+                            <a href="#"><button title="LinkedIn"><i class="bi bi-linkedin"></i></button></a>
+                            <a href="#"><button title="GitHub"><i class="bi bi-github"></i></button></a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <!-- Portfolio Section -->
-    <section class="section portfolio" id="portfolio">
-        <div class="container">
-            <h2 class="section-title">Meus Projetos</h2>
+        <section class="portfolio-section" id="projetos">
+            <div class="section-header">
+                <h2>Meu Portfólio</h2>
+                <div class="header-line"></div>
+                <p>Conheça meus trabalhos mais relevantes</p>
+            </div>
+
             <div class="portfolio-grid">
-                <div class="portfolio-item">
-                    <div class="portfolio-img">
+                <!-- Projeto 1 -->
+                <div class="project-card">
+                    <div class="project-image">
                         <img src="./assets/cafeteriaaa.jpeg"
-                            alt="cafeteria">
+                            alt="Dashboard de análise de dados com gráficos e métricas">
+                        <div class="project-overlay">
+                            <span class="overlay-text">Ver Detalhes</span>
+                        </div>
                     </div>
-                    <div class="portfolio-info">
-                        <h3>cafeteria code com café</h3>
-                        <p>Este é o meu primeiro projeto: uma página web criada para uma cafeteria. O site apresenta um
-                            cardápio de cafés cuidadosamente organizado, com um design moderno e acolhedor. Desenvolvido
-                            com foco em usabilidade, visual limpo e responsividade, o projeto foi pensado para oferecer
-                            uma experiência agradável ao usuário em qualquer dispositivo</p>
-                        <div class="portfolio-tags">
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
+                    <div class="project-content">
+                        <h3>cafeteria</h3>
+                        <p>uma landing page para uma cafeteria design responsivo e sofisticado</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="demo-link">saiba mais</a>
+                            <a href="#" class="code-link">Código</a>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-img">
-                        <img src="./assets/print.png"
-                            alt="Aplicativo móvel de finanças pessoais com interface limpa e gráficos de gastos">
+
+                <!-- Projeto 2 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./assets/PELOS E PATAS.png" alt="Aplicativo móvel de e-commerce mostrando produtos">
+                        <div class="project-overlay">
+                            <span class="overlay-text">Ver Detalhes</span>
+                        </div>
                     </div>
-                    <div class="portfolio-info">
-                        <h3>Apple story</h3>
-                        <p>Uma experiência visual inspirada no design minimalista da Apple. Esta página web combina
-                            elegância e modernidade com um toque futurista: efeitos de scroll suave, animações fluidas e
-                            círculos fluorescentes que flutuam em segundo plano, criando uma atmosfera envolvente e
-                            tecnológica. Cada detalhe foi pensado para impressionar, desde o layout limpo até a
-                            composição visual harmoniosa</p>
-                        <div class="portfolio-tags">
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
-                            <span class="tag">JavaScript</span>
+                    <div class="project-content">
+                        <h3>Pelos e Patas</h3>
+                        <p>landing page desenvolvida para um Petshop, visando transformar visitas em clientes</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML5</span>
+                            <span class="tech-tag">CSS3</span>
+                            <span class="tech-tag">JavaScript</span>
+                        </div>
+                        <div class="project-links">
+                            <a href="#" class="demo-link">Saiba mais</a>
+                            <a href="#" class="code-link">Código</a>
                         </div>
                     </div>
                 </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-img">
-                        <img src="./assets/imobiliaria.png"
-                            alt="Website institucional moderno para uma marca de moda sustentável">
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>imobiliária Santos </h3>
-                        <p>Desenvolvi uma página web informativa voltada para o segmento imobiliário. O projeto
-                            apresenta perfis de corretores, com dados relevantes, além de disponibilizar links para
-                            contato e localização da empresa. A estrutura da página foi inspirada em uma atividade
-                            prática da plataforma DevMedia, com foco em usabilidade e organização das informações.</p>
-                        <div class="portfolio-tags">
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
+
+                <!-- Projeto 3 -->
+                <div class="project-card">
+                    <div class="project-image">
+                        <img src="./assets/imobiliaria.png" alt="Interface de login moderna com formulário">
+                        <div class="project-overlay">
+                            <span class="overlay-text">Ver Detalhes</span>
                         </div>
                     </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-img">
-                        <img src="./assets/livroo.png"
-                            alt="Interface de rede social corporativa com feed de atividades e perfis de usuário">
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>A era da inteligência artificial</h3>
-                        <p>Desenvolvi uma página web estática com o objetivo exclusivo de divulgar um livro. O projeto
-                            foi inspirado em atividades práticas da plataforma DevMedia e apresenta uma estrutura
-                            simples e funcional. Apesar da simplicidade, utilizei técnicas básicas de CSS para
-                            centralizar os elementos e aprimorar o visual da página, resultando em um layout limpo, bem
-                            organizado e visualmente agradável.</p>
-                        <div class="portfolio-tags">
-                            <span class="tag">HTML</span>
-                            <span class="tag">CSS</span>
+                    <div class="project-content">
+                        <h3>imobiliaria Santos</h3>
+                        <p>Página desenvolvida para uma imobiliaria, transformando leads em clientes</p>
+                        <div class="tech-tags">
+                            <span class="tech-tag">HTML</span>
+                            <span class="tech-tag">CSS</span>
                         </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-img">
-                        <img src="https://placehold.co/600x400"
-                            alt="Landing page minimalista para serviço de assinatura com formulário de cadastro">
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>...</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti odit dolorum non. Excepturi
-                            cupiditate, magni deserunt, ratione, quaerat sed ipsam perspiciatis laboriosam earum saepe
-                            expedita aut placeat laborum architecto quia.</p>
-                        <div class="portfolio-tags">
-                            <span class="tag">...</span>
-                            <span class="tag">...</span>
-                            <span class="tag">...</span>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="portfolio-img">
-                        <img src="https://placehold.co/600x400"
-                            alt="Interface de aplicativo de viagens com mapa interativo e opções de roteiro">
-                    </div>
-                    <div class="portfolio-info">
-                        <h3>...</h3>
-                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Odio blanditiis reprehenderit
-                            dicta, quasi quidem eaque, aliquam, eligendi est earum impedit illum nisi? Omnis cumque
-                            voluptatum asperiores eligendi quidem repudiandae. Asperiores?</p>
-                        <div class="portfolio-tags">
-                            <span class="tag">...</span>
-                            <span class="tag">...</span>
-                            <span class="tag">...</span>
+                        <div class="project-links">
+                            <a href="#" class="demo-link">Saiba mais</a>
+                            <a href="#" class="code-link">Código</a>
                         </div>
                     </div>
                 </div>
             </div>
-        </div>
-    </section>
 
-    <!-- Contact Section -->
-    <section class="section contact" id="contact">
-        <div class="container">
-            <h2 class="section-title">Vamos Trabalhar Juntos</h2>
-            <p>Estou sempre aberto a novos projetos e colaborações. Entre em contato para discutirmos como posso ajudar
-                a transformar sua visão em realidade.</p>
+            <div class="view-more">
+                <a href="#" class="view-more-btn">Ver Mais Projetos</a>
+            </div>
+        </section>
 
-            <form class="contact-form">
-                <div class="form-group">
-                    <label for="name">Nome</label>
-                    <input type="text" id="name" placeholder="Seu nome completo" required>
-                </div>
-                <div class="form-group">
-                    <label for="email">Email</label>
-                    <input type="email" id="email" placeholder="seu@email.com" required>
-                </div>
-                <div class="form-group">
-                    <label for="subject">Assunto</label>
-                    <input type="text" id="subject" placeholder="Sobre o que deseja falar?" required>
-                </div>
-                <div class="form-group">
-                    <label for="message">Mensagem</label>
-                    <textarea id="message" placeholder="Descreva seu projeto ou dúvida..." required></textarea>
-                </div>
-                <button type="submit" class="btn">Enviar Mensagem</button>
-            </form>
-        </div>
-    </section>
+        <section class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALA <span>COMIGO</span></h2>
 
-    <!-- Footer -->
-    <footer>
-        <div class="container">
-            <div class="footer-content">
-                <div class="logo">MeuPortfolio</div>
-                <p>Soluções digitais que combinam criatividade e tecnologia</p>
+                <form action="">
+                    <input type="text" placeholder="Seu nome completo" required>
+                    <input type="text" placeholder="Seu email" required>
+                    <input type="text" placeholder="Seu celular">
+                    <textarea name="" id="" placeholder="Sua mensagem" required></textarea>
+                    <div class="btn-enviar"><input type="submit" value="ENVIAR"></div>
+                </form>
+            </div>
+        </section>
 
-                <div class="social-links">
-                    <a href="#"><i class="fab fa-linkedin-in">LinkedIn</i></a>
-                    <a href="#"><i class="fab fa-github">GitHub</i></a>
-                    <a href="#"><i class="fab fa-whatsapp"> whatsapp</i></a>
-                    <a href="#"><i class="fab fa-instagram">instagram</i></a>
+        <footer>
+            <div class="interface">
+                <div class="footer-content">
+                    <h3>Caio Sales</h3>
+                    <p>Desenvolvedor Front-End | Criando soluções digitais modernas</p>
+
+                    <div class="social-footer">
+                        <a href="https://github.com/SEU_GITHUB" target="_blank" rel="noopener" title="GitHub"><i
+                                class="bi bi-github"></i></a>
+                        <a href="https://linkedin.com/in/SEU_LINKEDIN" target="_blank" rel="noopener"
+                            title="LinkedIn"><i class="bi bi-linkedin"></i></a>
+                        <a href="https://instagram.com/SEU_INSTAGRAM" target="_blank" rel="noopener"
+                            title="Instagram"><i class="bi bi-instagram"></i></a>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>&copy; 2025 - Caio Sales | Todos os direitos reservados.</p>
                 </div>
             </div>
-            <div class="copyright">
-                <p>&copy; @Caiosll 2025 MeuPortfolio. Todos os direitos reservados.</p>
-            </div>
-        </div>
-    </footer>
+        </footer>
 
-    <script src="./script.js"></script>
+    </main>
 </body>
 
 </html>
